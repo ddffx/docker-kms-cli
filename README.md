@@ -25,7 +25,7 @@ AWS KMS client
 
   Usage
     kms-cli <input command> [arguments]
-   Or if you are using this as docker conatiner and didn\'t create alias kms-cli
+   Or if you are using this as docker conatiner and didn't create alias kms-cli
     ./kms-cli.sh <input command> [arguments]
 
   Example
