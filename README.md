@@ -24,9 +24,10 @@ Please follow this link: http://aws.amazon.com/kms/
 2. Inside the repo run ./kms-cli.sh you should see the default help listed
 
    ```
-   cd docker-cmd-cli && ./kms-cli.sh
+   cd docker-kms-cli && ./kms-cli.sh
    ```
-3. Create an alias for ./kms-cli.sh `alias kms-cli=./kms-cli.sh`, creating a permanent alias is recommended 
+3. Create an alias for ./kms-cli.sh `alias kms-cli=./kms-cli.sh`, creating a permanent alias is recommended for regular use
+
 ```
 $ kms-cli
 AWS KMS client
