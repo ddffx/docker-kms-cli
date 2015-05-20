@@ -46,7 +46,11 @@ AWS KMS client
     kms-cli describe -k my_kms_encryption_key_id
 ```
 ### Example
-- Encryption
+- Encryption command
 ```
 kms-cli encrypt --pt "Hello World" -k d36xxxxx-2xxx-xxxf-bxxx-xxx7a7xxxb6
+```
+- Decryption command
+```
+kms-cli decrypt --ct "CiAqkzNibdCgWEcqdc/mXw6uBGELNMAQcBMB4GCWCGSAFlAwQBLjARBAzQu5JbewPSeadnSwqVdApEbzLzrXcAw=="
 ```
