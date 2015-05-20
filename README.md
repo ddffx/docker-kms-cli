@@ -9,6 +9,14 @@ Please follow this link: http://aws.amazon.com/kms/
 3. Describe an encryption key
  
 ### How to use
+Make sure you have [docker](https://docs.docker.com/) [installed](https://docs.docker.com/installation/) in your system.
+
+Test if docker is installed. Following command should print `hello world` in your terminal
+
+```
+docker run  --rm busybox /bin/echo hello world
+```
+
 1. Setup aws credentials for the cli
     - Create a **.kms-env** file in your home folder
     - Add your access key id and secret in it like:
