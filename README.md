@@ -25,13 +25,15 @@ AWS KMS client
 
   Usage
     kms-cli <input command> [arguments]
+   Or if you are using this as docker conatiner and didn\'t create alias kms-cli
+    ./kms-cli.sh <input command> [arguments]
 
   Example
     Encrypt:
-    kms-cli encrypt --pt "my secret variable" -k my_master_key_refernece_id
+    kms-cli encrypt --pt "my secret" -k my_kms_encryption_key_id
     Decrypt:
-    kms-cli decrypt --ct "my secret variable"
+    kms-cli decrypt --ct "my encrypted secret"
     Describe Key:
-    kms-cli describe -k my_master_key_refernece_id
+    kms-cli describe -k my_kms_encryption_key_id
 ```
 
