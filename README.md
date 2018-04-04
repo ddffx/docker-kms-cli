@@ -24,7 +24,10 @@ docker run  --rm busybox /bin/echo hello world
     AWS_ACCESS_KEY_ID=AKIA.....PA
     AWS_SECRET_ACCESS_KEY=mw/..........XspE
     ```
-2. curl -o /usr/local/bin/kms-cli https://raw.githubusercontent.com/ddffx/docker-kms-cli/master/kms-cli.sh && chmod a+x /usr/local/bin/aws
+2. 
+```
+curl -o /usr/local/bin/kms-cli https://raw.githubusercontent.com/ddffx/docker-kms-cli/master/kms-cli.sh && chmod a+x /usr/local/bin/aws
+```
 
 ```
 $ kms-cli
