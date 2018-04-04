@@ -9,7 +9,7 @@ trap - INT TERM
 
 docker run --rm \
 	-t $(tty &>/dev/null && echo "-i") \
-  -v "$HOME/.aws:/root/.aws" \
+  	-v "$HOME/.aws:/root/.aws" \
 	-v "$(pwd):/project" \
 	ddffx/kms-cli \
 	"$@"
