@@ -24,17 +24,7 @@ docker run  --rm busybox /bin/echo hello world
     AWS_ACCESS_KEY_ID=AKIA.....PA
     AWS_SECRET_ACCESS_KEY=mw/..........XspE
     ```
-2. Clone this repo
-
-   ```
-   git clone git@github.com:ddffx/docker-kms-cli.git
-   ```
-2. Inside the repo run ./kms-cli.sh you should see the default help listed
-
-   ```
-   cd docker-kms-cli && ./kms-cli.sh
-   ```
-3. Create an alias for ./kms-cli.sh `alias kms-cli=./kms-cli.sh`, creating a permanent alias is recommended for regular use
+2. curl -o /usr/local/bin/kms-cli https://raw.githubusercontent.com/ddffx/docker-kms-cli/master/kms-cli.sh && chmod a+x /usr/local/bin/aws
 
 ```
 $ kms-cli
