@@ -26,7 +26,7 @@ docker run  --rm busybox /bin/echo hello world
     ```
 2. 
 ```
-curl -o /usr/local/bin/kms-cli https://raw.githubusercontent.com/ddffx/docker-kms-cli/master/kms-cli.sh && chmod a+x /usr/local/bin/aws
+curl -o /usr/local/bin/kms-cli https://raw.githubusercontent.com/ddffx/docker-kms-cli/master/kms-cli.sh && chmod a+x /usr/local/bin/kms-cli
 ```
 
 ```
